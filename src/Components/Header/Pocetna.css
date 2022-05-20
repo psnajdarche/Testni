@@ -1,0 +1,53 @@
+.pocetna-container{
+    display: flex;
+    flex-direction: column;
+    height: 77vh;
+    margin-top: 6rem;
+    color:rgba(254, 253, 253, 0.886);
+   gap: 2rem;
+}
+.naslov{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.hero-button{
+    display: flex;
+    margin: 2rem;
+}
+.hero-button-explore{
+    background-color: transparent;
+   color:rgba(254, 253, 253, 0.886);
+    border: 2px solid rgba(254, 253, 253, 0.886);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 5rem;
+    height: 3rem;
+    
+}
+.hero-button-video{
+    background-color: transparent;
+    display: inline-block;
+    color:rgba(254, 253, 253, 0.886);
+     border: 2px solid rgba(254, 253, 253, 0.886);
+     margin-left: 2rem;
+     cursor: pointer;
+}
+
+.hero-button-explore:hover{
+    background-color: rgba(254, 253, 253, 0.3);
+}
+.naslov>h1{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.naslov>p{
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 10px;
+}
+

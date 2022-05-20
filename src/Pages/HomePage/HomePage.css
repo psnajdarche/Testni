@@ -1,0 +1,12 @@
+.heder{
+   
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(../../pexels-andrew-neel-2312369.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url(../../pexels-fauxels-3183152.jpg); */
+}
+@media  screen and (max-width:768px){
+   .heder{ height: 100%;
+    width: 100%;
+}
+}
